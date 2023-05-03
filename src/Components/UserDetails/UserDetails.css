@@ -1,0 +1,46 @@
+.details__container > div{
+    height: 90vh;
+    margin-top: 1rem;
+}
+
+.details__container{
+    position: relative;
+    top: 5rem;
+}
+
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    background-color: #5CC4A8;
+    color: white;
+
+}
+
+.details__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+
+.details__left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details__left > img{
+    height: 450px;
+}
+
+.details > div {
+    flex-basis: 250px;
+
+    flex-grow: 1;
+}

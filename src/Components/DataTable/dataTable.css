@@ -1,0 +1,14 @@
+.user__table{
+    position: relative;
+    top: 5rem;
+}
+
+.user__table > div {
+    height: 90vh;
+    margin-top: 1rem;
+}
+
+.full__name{
+    text-decoration: none;
+    color: black;
+}
